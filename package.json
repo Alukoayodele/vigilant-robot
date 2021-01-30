@@ -1,0 +1,31 @@
+{
+  "name": "flutterapitask",
+  "version": "1.0.0",
+  "description": "Rule Validation API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alukoayodele/vigilant-robot.git"
+  },
+  "author": "Aluko Ayodele Aluko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alukoayodele/vigilant-robot/issues"
+  },
+  "homepage": "https://github.com/Alukoayodele/vigilant-robot#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "is-empty": "^1.2.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
